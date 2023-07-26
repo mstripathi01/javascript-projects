@@ -1,0 +1,124 @@
+/* style.css */
+
+/* Reset default margin and padding for body and heading tags */
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background color and styles for the heading */
+.heading {
+  background-color: #ecc40e;
+  color: #000;
+  padding: 10px;
+}
+
+/* Style the heading icon */
+.heading h1 i {
+  margin-right: 10px;
+}
+
+/* Set the background color and styles for the "Add note" button */
+.btn-div {
+  text-align: end;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.learn-more {
+  background-color: #ecc40e;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  /* position: relative; */
+  transition: background-color 0.3s ease-in-out;
+  font-weight: 700;
+}
+
+.learn-more .circle {
+  background-color: #ecc40e;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  /* right: 20px; */
+  transform: translateY(-50%);
+}
+
+/* Set styles for the "Add note" button text and arrow icon */
+.button-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-arrow {
+  border: solid #080808;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(313deg);
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+/* Set styles for the note container */
+.note {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Set styles for the buttons in the note container */
+.operation {
+  text-align: right;
+}
+
+.edit,
+.delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(199, 45, 45);
+  border-radius: 20px;
+  color: #fff;
+  padding: 8px;
+}
+
+.edit {
+  margin-right: 10px;
+  background-color: rgb(4, 145, 47);
+  color: #fff;
+}
+
+/* Set styles for the main content and textarea in the note container */
+.main,
+textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  font-size: 16px;
+}
+
+/* Styles for the Font Awesome icons */
+.fa-sticky-note,
+.fa-edit,
+.fa-trash-alt {
+  font-size: 20px;
+}
+
+/* Additional styles to make the button visually appealing */
+.learn-more:hover {
+  background-color: #b37a00;
+}
+
+.learn-more:active {
+  background-color: #f8b653;
+}
